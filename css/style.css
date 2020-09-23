@@ -46,6 +46,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    src: 'file:///Users/dickssau000/.local/share/fonts/scientifica.ttf'
     font-family: 'scientifica', Medium;
     font-size: 13.5px;
     transition: 0.2s ease-in-out;
