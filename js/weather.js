@@ -5,7 +5,7 @@ const descElement = document.querySelector('.temperature-description p');
 // App data
 const weather = {};
 weather.temperature = {
-    unit: 'celsius',
+    unit: 'fahrenheit',
 };
 
 // Change to 'F' for Fahrenheit
@@ -21,8 +21,8 @@ setPosition();
 function setPosition(position) {
     // Here you can change your position
     // You can use https://www.latlong.net/ to get it! (I use San Francisco as an example)
-    let latitude = 37.774929;
-    let longitude = -122.419418;
+    let latitude = 48.9060;
+    let longitude = 95.3184;
 
     getWeather(latitude, longitude);
 }
