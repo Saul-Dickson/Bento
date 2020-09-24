@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css');
 :root {
     /* Fonts  */
     --fsg: 150px;
@@ -46,8 +46,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    src: 'file:///Users/dickssau000/.local/share/fonts/scientifica.ttf';
-    font-family: 'scientifica', Medium;
+    font-family: 'Fira Code', monospace;
     font-size: 13.5px;
     transition: 0.2s ease-in-out;
 }
