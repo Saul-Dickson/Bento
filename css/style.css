@@ -234,30 +234,6 @@ body {
     box-shadow: 0 5px 7px rgba(0, 0, 0, 0.35);
     border-radius: 5px;
 }
-.qlink__link-1 {
-    grid-row: 1;
-    grid-column: 1;
-}
-.qlink__link-2 {
-    grid-row: 1;
-    grid-column: 2;
-}
-.qlink__link-3 {
-    grid-row: 2;
-    grid-column: 1;
-}
-.qlink__link-4 {
-    grid-row: 2;
-    grid-column: 2;
-}
-.qlink__link-5 {
-    grid-row: 1;
-    grid-column: 3;
-}
-.qlink__link-6 {
-    grid-row: 2;
-    grid-column: 3;
-}
 .qlink__link:hover {
     background-color: var(--accent);
     transform: translateY(-0.2rem);
@@ -265,6 +241,55 @@ body {
 }
 .qlink__link:hover svg {
     stroke: var(--fg);
+}
+
+.qlink__link-1 {
+    grid-row: 1;
+    grid-column: 1;
+}
+.qlink__link-1:hover {
+    background-color: rgb(127, 43, 240);
+}
+
+.qlink__link-2 {
+    grid-row: 1;
+    grid-column: 2;
+}
+.qlink__link-2:hover {
+    background-color: #6c6;
+}
+
+.qlink__link-3 {
+    grid-row: 2;
+    grid-column: 1;
+}
+.qlink__link-3:hover {
+    background-color: rgb(237, 174, 56);
+}
+
+.qlink__link-4 {
+    grid-row: 2;
+    grid-column: 2;
+}
+.qlink__link-4:hover {
+    background-color: rgb(255, 255, 255);
+    --fg: var(--sbg);
+}
+
+.qlink__link-5 {
+    grid-row: 1;
+    grid-column: 3;
+}
+.qlink__link-5:hover {
+    background-color: rgb(51, 119, 239);
+}
+
+.qlink__link-6 {
+    grid-row: 2;
+    grid-column: 3;
+}
+.qlink__link-6:hover {
+    background-color: rgb(255, 0, 0);
 }
 
 .qlist {
